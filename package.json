@@ -1,0 +1,27 @@
+{
+  "name": "visco-api",
+  "version": "1.0.0",
+  "description": "Visco Compare Backend",
+  "main": "reddis.js",
+  "scripts": {
+    "start": "node reddis.js",
+    "dev": "nodemon reddis.js"
+  },
+  "engines": {
+    "node": ">=20 <22"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "axios": "^1.11.0",
+    "bullmq": "^5.58.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "ioredis": "^5.7.0",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
